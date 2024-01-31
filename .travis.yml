@@ -11,12 +11,12 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: frontend
-  env: Frontend-env
+  app: nini
+  env: Nini-env
   bucket_name: elasticbeanstalk-us-east-2-992382386439
   bucket_path: frontend
   on:
     branch: master
-  # access_key_id: $AWS_ACCESS_KEY
-  # secret_access_key: "$AWS_SECRET_KEY"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: "$AWS_SECRET_KEY"
   
