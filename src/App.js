@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         holy fuck:)!!!!!!!!!!!!!!!!
+         some changes
         </a>
       </header>
     </div>
